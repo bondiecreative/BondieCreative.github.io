@@ -103,3 +103,83 @@ a:hover
    background-image: none;
    color: #FFFFFF;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 26px;
+   top: 17px;
+   width: 99px;
+   height: 99px;
+   z-index: 0;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 227px;
+   top: 28px;
+   width: 572px;
+   height: 77px;
+   text-align: center;
+   z-index: 2;
+}
+#ThemeableButton1
+{
+   position: absolute;
+   left: 871px;
+   top: 49px;
+   width: 61px;
+   height: 35px;
+   z-index: 1;
+}
+@media only screen and (max-width: 969px)
+{
+div#container
+{
+   width: 320px;
+}
+body
+{
+   background-color: #181A1B;
+   background-image: none;
+}
+#wb_Image1
+{
+   left: 14px;
+   top: 12px;
+   width: 110px;
+   height: 110px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#ThemeableButton1
+{
+   left: 259px;
+   top: 12px;
+   width: 61px;
+   height: 35px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#ThemeableButton1
+{
+   font-size: 13px;
+   padding: 0;
+}
+}
