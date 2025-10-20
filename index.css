@@ -63,20 +63,44 @@ a:hover
 {
    text-align: center;
 }
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Image1
 {
    position: absolute;
-   left: 26px;
-   top: 17px;
+   left: 150px;
+   top: 997px;
    width: 99px;
    height: 99px;
    z-index: 0;
 }
+#wb_Image2
+{
+   position: absolute;
+   left: 292px;
+   top: 669px;
+   width: 329px;
+   height: 438px;
+   z-index: 2;
+}
 #wb_Text1
 {
    position: absolute;
-   left: 125px;
-   top: 42px;
+   left: 170px;
+   top: 575px;
    width: 572px;
    height: 48px;
    text-align: center;
