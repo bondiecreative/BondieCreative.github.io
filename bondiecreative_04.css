@@ -4,6 +4,16 @@
    50% { transform: perspective(400px) rotateX(0deg) rotateY(-180deg) scale3d(1.2,1.2,1.2) ;  }
    100% { transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
+@keyframes jello-horizontal
+{
+   0% { transform: rotateX(0deg) ;  }
+   30% { transform: rotateX(0deg) scale3d(1.25,0.75,1.0) ;  }
+   40% { transform: rotateX(0deg) scale3d(0.75,1.25,1.0) ;  }
+   50% { transform: rotateX(0deg) scale3d(1.15,0.85,1.0) ;  }
+   65% { transform: rotateX(0deg) scale3d(0.95,1.05,1.0) ;  }
+   75% { transform: rotateX(0deg) scale3d(1.05,0.95,1.0) ;  }
+   100% { transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
 @keyframes jello-vertical
 {
    0% { transform: rotateX(0deg) ;  }
@@ -102,4 +112,7 @@ h6, .h6
    color: #2E74B5;
    --color: #2E74B5;
    background-color: transparent;
+}
+@media only screen and (max-width: 1649px)
+{
 }
