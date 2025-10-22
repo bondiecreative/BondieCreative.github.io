@@ -1,0 +1,528 @@
+div#container
+{
+   width: 1649px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #4B0082;
+   background-image: url('images/PORTFOLIO-HOME_bkgrnd.png');
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_footer28Text 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0 0 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_footer28Text div
+{
+   text-align: center;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   box-shadow: 7px 0px 0px #48D1CC;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#HorizontalLine1
+{
+   border-color: #FF1493;
+   border-style: solid;
+   border-bottom-width: 4px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   box-shadow: 7px 0px 0px #48D1CC;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Shape1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 1648px;
+   height: 99px;
+   z-index: 4;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 720px;
+   top: 632px;
+   width: 211px;
+   height: 281px;
+   z-index: 2;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 1px;
+   top: 0px;
+   width: 99px;
+   height: 99px;
+   z-index: 6;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 650px;
+   top: 239px;
+   width: 439px;
+   height: 107px;
+   z-index: 3;
+}
+#HorizontalLine1
+{
+   position: absolute;
+   left: 0px;
+   top: 98px;
+   width: 1650px;
+   z-index: 12;
+}
+#wb_Text5
+{
+   position: absolute;
+   left: 1113px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   z-index: 7;
+}
+#wb_Text6
+{
+   position: absolute;
+   left: 1022px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   z-index: 8;
+}
+#wb_footer28Text
+{
+   position: absolute;
+   left: 685px;
+   top: 999px;
+   width: 281px;
+   height: 62px;
+   text-align: center;
+   z-index: 1;
+}
+#wb_Text7
+{
+   position: absolute;
+   left: 1213px;
+   top: 25px;
+   width: 137px;
+   height: 48px;
+   z-index: 9;
+}
+#Shape1
+{
+   width: 1648px;
+   height: 99px;
+}
+#wb_Text12
+{
+   position: absolute;
+   left: 1470px;
+   top: 25px;
+   width: 106px;
+   height: 48px;
+   z-index: 11;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 690px;
+   top: 951px;
+   width: 270px;
+   height: 48px;
+   text-align: center;
+   z-index: 0;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 655px;
+   top: 388px;
+   width: 429px;
+   height: 107px;
+   z-index: 13;
+}
+#Shape4
+{
+   width: 92px;
+   height: 92px;
+}
+#wb_Shape4
+{
+   position: absolute;
+   left: 4px;
+   top: 3px;
+   width: 92px;
+   height: 92px;
+   z-index: 5;
+}
+#wb_Text8
+{
+   position: absolute;
+   left: 1350px;
+   top: 25px;
+   width: 97px;
+   height: 48px;
+   z-index: 10;
+}
+@media only screen and (max-width: 1648px) and (orientation: landscape)
+{
+div#container
+{
+   width: 1648px;
+}
+body
+{
+   background-color: #4B0082;
+   background-image: url('images/PORTFOLIO-HOME_bkgrnd1648.png');
+}
+#wb_Text1
+{
+   left: 674px;
+   top: 997px;
+   width: 572px;
+   height: 84px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_footer28Text
+{
+   left: 490px;
+   top: 1059px;
+   width: 940px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+}
+#wb_footer28Text
+{
+   margin: 0;
+   padding: 15px 0 0 0;
+}
+#wb_Image1
+{
+   left: 855px;
+   top: 703px;
+   width: 211px;
+   height: 281px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   left: 700px;
+   top: 218px;
+   width: 455px;
+   height: 107px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Shape1
+{
+   left: 1px;
+   top: 4px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Shape4
+{
+   left: 5px;
+   top: 7px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Image2
+{
+   left: 0px;
+   top: 5px;
+   width: 110px;
+   height: 110px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5
+{
+   left: 1114px;
+   top: 29px;
+   width: 77px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text5
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6
+{
+   left: 1023px;
+   top: 29px;
+   width: 77px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text6
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   left: 1214px;
+   top: 29px;
+   width: 137px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text7
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text8
+{
+   left: 1367px;
+   top: 29px;
+   width: 97px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text8
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text12
+{
+   left: 1487px;
+   top: 29px;
+   width: 106px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text12
+{
+   margin: 0;
+   padding: 0;
+}
+#HorizontalLine1
+{
+   left: 0px;
+   top: 103px;
+   width: 1650px;
+   height: 4px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#HorizontalLine1
+{
+   border-color: #FF1493;
+   border-bottom-width: 4px;
+}
+#wb_Text2
+{
+   left: 700px;
+   top: 353px;
+   width: 430px;
+   height: 107px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+}
