@@ -1,3 +1,10 @@
+div#container
+{
+   width: 320px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
 body
 {
    background-color: #4B0082;
@@ -8,7 +15,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 #wb_Text1 
 {
@@ -306,6 +313,10 @@ body
 }
 @media only screen
 {
+div#container
+{
+   width: 320px;
+}
 body
 {
    background-color: #4B0082;
