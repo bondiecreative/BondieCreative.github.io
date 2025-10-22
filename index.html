@@ -14,8 +14,18 @@
 <link href="index.css" rel="stylesheet">
 <script src="jquery-3.7.1.min.js"></script>
 <script src="wwb19.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
 </head>
-<body class="wb-theme-content">
+<body class="wb-theme-content" onpageshow="AnimateCss('', 'animate-fade-in-up', 0, 500);return false;">
 <div id="wb_Text1">
 <span style="color:#FFFFFF;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>THANK YOU FOR VISITING / SITE IS UNDER CONSTRUCTION</strong></span></div>
 <div id="wb_Image2">
@@ -33,17 +43,19 @@
 </div>
 <div id="wb_Shape1">
 <img src="images/img0001.png" id="Shape1" alt="" width="1648" height="99"></div>
+<div id="wb_Shape2">
+<img src="images/img0002.png" id="Shape2" alt="" width="92" height="92"></div>
 <div id="wb_Image1">
 <a href="./index.html" onmouseover="AnimateCss('wb_Image1', 'jello-vertical', 0, 500);return false;"><img src="images/BONDIE CREATIVE LOGO REDUX LOGO no BG 2023-1.png" id="Image1" alt="" width="99" height="99"></a></div>
 <div id="wb_Text4" onmouseover="AnimateCss('wb_Text4', 'jello-horizontal', 0, 500);return false;">
 <span style="color:#000000;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>About</strong></span></div>
 <div id="wb_Text5" onclick="window.location.href='./index.html';return false;" onmouseover="AnimateCss('wb_Text5', 'jello-vertical', 0, 500);return false;">
 <span style="color:#000000;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>Home</strong></span></div>
-<div id="wb_Text6" onmouseover="AnimateCss('wb_Text6', 'jello-horizontal', 0, 500);return false;">
+<div id="wb_Text6" onclick="window.location.href='./Portfolio-Page.html';return false;" onmouseover="AnimateCss('wb_Text6', 'jello-horizontal', 0, 500);return false;">
 <span style="color:#000000;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>Portfolio</strong></span></div>
 <div id="wb_Text7" onmouseover="AnimateCss('wb_Text7', 'jello-horizontal', 0, 500);return false;">
 <span style="color:#000000;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>Pricing</strong></span></div>
-<div id="wb_Text8" onclick="window.location.href='./Contact.html';return false;" onmouseover="AnimateCss('wb_Text8', 'jello-horizontal', 0, 500);return false;">
+<div id="wb_Text8" onclick="window.location.href='./Wedding-Photography-Page.html';return false;" onmouseover="AnimateCss('wb_Text8', 'jello-horizontal', 0, 500);return false;">
 <span style="color:#000000;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>Contact</strong></span></div>
 <div id="wb_Text9">
 <span style="color:#FFFFFF;font-family:'Auto Sharp Pencil';font-size:48px;"><strong>THANK YOU FOR VISITING / SITE IS UNDER CONSTRUCTION</strong></span></div>
@@ -51,5 +63,7 @@
 <span style="color:#FFFFFF;font-family:'Agency FB';font-size:17px;">OWNER/OPERATOR<br>OF...</span></div>
 <div id="wb_Text11">
 <span style="color:#FFFFFF;font-family:'Auto Sharp Pencil';font-size:48px;"><strong> Florida based video production specializing in weddings, corporate and small business marketing. independent films, music videos and more!</strong></span></div>
+<hr id="HorizontalLine1">
+<div id="preloader"></div>
 </body>
 </html>

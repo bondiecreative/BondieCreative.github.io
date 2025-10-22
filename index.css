@@ -25,6 +25,15 @@ a:hover
    color: #0000FF;
    text-decoration: underline;
 }
+#preloader
+{
+   background: #000000 url("images/windmill.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
 .wb-theme-header
 {
    background-color: #2C2C2C;
@@ -49,7 +58,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(59%) sepia(13%) saturate(6173%) hue-rotate(165deg) brightness(94%) contrast(77%);
+   --colorize: invert(55%) sepia(73%) saturate(1667%) hue-rotate(167deg) brightness(92%) contrast(81%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -111,7 +120,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(48%) sepia(13%) saturate(2526%) hue-rotate(154deg) brightness(110%) contrast(91%);
+   --colorize: invert(61%) sepia(26%) saturate(4280%) hue-rotate(165deg) brightness(93%) contrast(78%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -228,10 +237,15 @@ a:hover
    top: 0;
    width: 100%;
    height: 100%;
-   border: 0px solid #4F4F4F;
+   border: 2px outset #4F4F4F;
    border-radius: 0px;
 }
 #Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape2
 {
    border-width: 0;
    vertical-align: top;
@@ -363,6 +377,19 @@ a:hover
 {
    text-align: center;
 }
+#HorizontalLine1
+{
+   border-color: #FF1493;
+   border-style: solid;
+   border-bottom-width: 4px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
 #wb_Shape1
 {
    position: absolute;
@@ -372,6 +399,15 @@ a:hover
    height: 99px;
    z-index: 6;
 }
+#wb_Shape2
+{
+   position: absolute;
+   left: 5px;
+   top: 3px;
+   width: 92px;
+   height: 92px;
+   z-index: 7;
+}
 #wb_Image1
 {
    position: absolute;
@@ -379,16 +415,16 @@ a:hover
    top: 0px;
    width: 99px;
    height: 99px;
-   z-index: 7;
+   z-index: 8;
 }
 #wb_Text4
 {
    position: absolute;
-   left: 1108px;
+   left: 1114px;
    top: 25px;
    width: 77px;
    height: 48px;
-   z-index: 8;
+   z-index: 9;
 }
 #wb_Image2
 {
@@ -399,23 +435,31 @@ a:hover
    height: 281px;
    z-index: 1;
 }
+#HorizontalLine1
+{
+   position: absolute;
+   left: 0px;
+   top: 99px;
+   width: 1650px;
+   z-index: 17;
+}
 #wb_Text5
 {
    position: absolute;
-   left: 1016px;
+   left: 1023px;
    top: 25px;
    width: 77px;
    height: 48px;
-   z-index: 9;
+   z-index: 10;
 }
 #wb_Text6
 {
    position: absolute;
-   left: 1207px;
+   left: 1214px;
    top: 25px;
    width: 137px;
    height: 48px;
-   z-index: 10;
+   z-index: 11;
 }
 #wb_Image4
 {
@@ -439,16 +483,21 @@ a:hover
 #wb_Text7
 {
    position: absolute;
-   left: 1360px;
+   left: 1367px;
    top: 25px;
    width: 97px;
    height: 48px;
-   z-index: 11;
+   z-index: 12;
 }
 #Shape1
 {
    width: 1648px;
    height: 99px;
+}
+#Shape2
+{
+   width: 92px;
+   height: 92px;
 }
 #wb_Text1
 {
@@ -463,12 +512,12 @@ a:hover
 #wb_Text11
 {
    position: absolute;
-   left: 72px;
+   left: 0px;
    top: 199px;
    width: 572px;
    height: 192px;
    text-align: center;
-   z-index: 15;
+   z-index: 16;
 }
 #wb_Text2
 {
@@ -487,34 +536,34 @@ a:hover
    width: 125px;
    height: 39px;
    text-align: center;
-   z-index: 14;
+   z-index: 15;
 }
 #wb_Text8
 {
    position: absolute;
-   left: 1480px;
+   left: 1487px;
    top: 25px;
    width: 106px;
    height: 48px;
-   z-index: 12;
+   z-index: 13;
 }
 #wb_Text9
 {
    position: absolute;
    left: 1039px;
-   top: 214px;
+   top: 238px;
    width: 572px;
    height: 96px;
    text-align: center;
-   z-index: 13;
+   z-index: 14;
 }
 #wb_MediaPlayer1
 {
    position: absolute;
    left: 417px;
    top: 488px;
-   width: 816px;
-   height: 634px;
+   width: 820px;
+   height: 638px;
    z-index: 5;
 }
 @media only screen and (max-width: 1649px)
