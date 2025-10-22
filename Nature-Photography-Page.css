@@ -192,21 +192,6 @@ a:hover
    margin: 0;
    padding: 0;
 }
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Image5
 {
    overflow: hidden;
@@ -252,57 +237,58 @@ a:hover
 {
    text-align: left;
 }
-#PhotoGallery1
+#wb_Text3 
 {
-   box-sizing: border-box;
-   font-size: 0;
-   width: 100%;
-   height: 100%;
-   table-layout: fixed;
-   display: table;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
    margin: 0;
-}
-#PhotoGallery1 .thumbnails
-{
-   margin: 0;
-}
-#PhotoGallery1 .thumbnail
-{
-   position: relative;
-   min-height: 1px;
-   box-sizing: border-box;
-   float: left;
-   padding: 3px 3px 3px 3px;
-   width: 50%;
    text-align: center;
-   vertical-align: top;
 }
-#PhotoGallery1 .thumbnail img
+#wb_Text3 div
 {
-   border: 0px #282828 solid;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 100%;
-   box-sizing: border-box;
+   text-align: center;
+}
+#SlideShow1
+{
+   margin: 0;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   max-width: 1920px;
+}
+.lSSlideOuter .lSPager.lSGallery li, .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover
+{
    border-radius: 0px;
 }
-#PhotoGallery1 .clearfix:before,
-#PhotoGallery1 .clearfix:after,
-#PhotoGallery1 .thumbnails:before,
-#PhotoGallery1 .thumbnails:after
+#SlideShow1 img
 {
-   display: table;
-   content: " ";
+   object-fit: cover;
+   width: 100%;
 }
-#PhotoGallery1 .clearfix:after,
-#PhotoGallery1 .thumbnails:after
+#SlideShow1 .lSGallery
 {
-   clear: both;
+   display: inline-flex;
 }
-#PhotoGallery1 .visible-col3
+#SlideShow1
 {
-   display: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text11 div
+{
+   text-align: left;
 }
 #wb_Shape1
 {
@@ -340,14 +326,14 @@ a:hover
    height: 48px;
    z-index: 7;
 }
-#wb_Image3
+#SlideShow1
 {
    position: absolute;
-   left: 1176px;
-   top: 105px;
-   width: 474px;
-   height: 316px;
-   z-index: 13;
+   left: 783px;
+   top: 657px;
+   width: 772px;
+   height: 788px;
+   z-index: 17;
 }
 #HorizontalLine1
 {
@@ -366,15 +352,6 @@ a:hover
    height: 48px;
    z-index: 8;
 }
-#wb_PhotoGallery1
-{
-   position: absolute;
-   left: 0px;
-   top: 1073px;
-   width: 789px;
-   height: 271px;
-   z-index: 17;
-}
 #wb_Text6
 {
    position: absolute;
@@ -387,8 +364,8 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 60px;
-   top: 717px;
+   left: 57px;
+   top: 1451px;
    width: 258px;
    height: 258px;
    z-index: 2;
@@ -396,8 +373,8 @@ a:hover
 #wb_footer28Text
 {
    position: absolute;
-   left: 354px;
-   top: 1545px;
+   left: 331px;
+   top: 1875px;
    width: 940px;
    height: 120px;
    text-align: center;
@@ -410,7 +387,7 @@ a:hover
    top: 107px;
    width: 827px;
    height: 312px;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_Text7
 {
@@ -434,31 +411,50 @@ a:hover
 #wb_Text1
 {
    position: absolute;
-   left: 539px;
-   top: 1457px;
+   left: 516px;
+   top: 1787px;
    width: 572px;
    height: 96px;
    text-align: center;
    z-index: 0;
 }
+#wb_Text11
+{
+   position: absolute;
+   left: 1079px;
+   top: 535px;
+   width: 186px;
+   height: 111px;
+   z-index: 18;
+}
 #wb_Text2
 {
    position: absolute;
-   left: 875px;
-   top: 151px;
-   width: 239px;
-   height: 224px;
+   left: 1302px;
+   top: 183px;
+   width: 259px;
+   height: 160px;
    text-align: center;
-   z-index: 15;
+   z-index: 14;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 37px;
+   top: 690px;
+   width: 377px;
+   height: 482px;
+   text-align: center;
+   z-index: 16;
 }
 #wb_Text10
 {
    position: absolute;
-   left: 35px;
-   top: 230px;
+   left: 32px;
+   top: 303px;
    width: 342px;
    height: 288px;
-   z-index: 16;
+   z-index: 15;
 }
 #wb_Text8
 {
@@ -472,8 +468,8 @@ a:hover
 #wb_Text9
 {
    position: absolute;
-   left: 5px;
-   top: 621px;
+   left: 2px;
+   top: 1355px;
    width: 402px;
    height: 96px;
    text-align: center;
