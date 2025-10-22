@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(19%) sepia(59%) saturate(22%) hue-rotate(360deg) brightness(101%) contrast(83%);
+   --colorize: invert(26%) sepia(42%) saturate(15%) hue-rotate(330deg) brightness(90%) contrast(93%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(41%) sepia(69%) saturate(574%) hue-rotate(172deg) brightness(84%) contrast(88%);
+   --colorize: invert(42%) sepia(40%) saturate(928%) hue-rotate(172deg) brightness(86%) contrast(87%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -254,7 +254,7 @@ a:hover
    width: 100%;
    height: 100%;
 }
-#wb_Text4 
+#wb_Text2 
 {
    background-color: transparent;
    background-image: none;
@@ -264,25 +264,11 @@ a:hover
    margin: 0;
    text-align: left;
 }
-#wb_Text4 div
+#wb_Text2 div
 {
    text-align: left;
 }
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text5 div
-{
-   text-align: left;
-}
-#wb_Text6 
+#wb_Text9 
 {
    background-color: transparent;
    background-image: none;
@@ -292,25 +278,11 @@ a:hover
    margin: 0;
    text-align: left;
 }
-#wb_Text6 div
+#wb_Text9 div
 {
    text-align: left;
 }
-#wb_Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text7 div
-{
-   text-align: left;
-}
-#wb_Text8 
+#wb_Text10 
 {
    background-color: transparent;
    background-image: none;
@@ -320,14 +292,42 @@ a:hover
    margin: 0;
    text-align: left;
 }
-#wb_Text8 div
+#wb_Text10 div
+{
+   text-align: left;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text11 div
+{
+   text-align: left;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
 {
    text-align: left;
 }
 #wb_Shape1
 {
    position: absolute;
-   left: 0px;
+   left: 1px;
    top: 0px;
    width: 1648px;
    height: 99px;
@@ -342,15 +342,6 @@ a:hover
    height: 99px;
    z-index: 7;
 }
-#wb_Text4
-{
-   position: absolute;
-   left: 1108px;
-   top: 25px;
-   width: 77px;
-   height: 48px;
-   z-index: 8;
-}
 #wb_Image2
 {
    position: absolute;
@@ -359,24 +350,6 @@ a:hover
    width: 211px;
    height: 281px;
    z-index: 1;
-}
-#wb_Text5
-{
-   position: absolute;
-   left: 1016px;
-   top: 25px;
-   width: 77px;
-   height: 48px;
-   z-index: 9;
-}
-#wb_Text6
-{
-   position: absolute;
-   left: 1207px;
-   top: 25px;
-   width: 137px;
-   height: 48px;
-   z-index: 10;
 }
 #wb_Image4
 {
@@ -397,19 +370,19 @@ a:hover
    text-align: center;
    z-index: 2;
 }
-#wb_Text7
-{
-   position: absolute;
-   left: 1360px;
-   top: 25px;
-   width: 97px;
-   height: 48px;
-   z-index: 11;
-}
 #Shape1
 {
    width: 1648px;
    height: 99px;
+}
+#wb_Text12
+{
+   position: absolute;
+   left: 1491px;
+   top: 26px;
+   width: 106px;
+   height: 48px;
+   z-index: 12;
 }
 #wb_Text1
 {
@@ -421,6 +394,33 @@ a:hover
    text-align: center;
    z-index: 0;
 }
+#wb_Text11
+{
+   position: absolute;
+   left: 1371px;
+   top: 26px;
+   width: 97px;
+   height: 48px;
+   z-index: 11;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 1029px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   z-index: 8;
+}
+#wb_Text10
+{
+   position: absolute;
+   left: 1224px;
+   top: 26px;
+   width: 137px;
+   height: 48px;
+   z-index: 10;
+}
 #wb_Text3
 {
    position: absolute;
@@ -431,14 +431,14 @@ a:hover
    text-align: center;
    z-index: 5;
 }
-#wb_Text8
+#wb_Text9
 {
    position: absolute;
-   left: 1480px;
-   top: 25px;
-   width: 106px;
+   left: 1119px;
+   top: 26px;
+   width: 77px;
    height: 48px;
-   z-index: 12;
+   z-index: 9;
 }
 #wb_MediaPlayer1
 {

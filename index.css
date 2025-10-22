@@ -34,125 +34,125 @@ a:hover
 }
 .wb-theme-header
 {
-   background-color: #E9E9E9;
+   background-color: #2C2C2C;
    background-image: none;
-   border: 1px solid #DDDDDD;
+   border: 1px solid #242424;
    border-radius: 0px;
-   color: #333333;
-   --background-color: rgba(233,233,233,1.00);
-   --border-color: #DDDDDD;
+   color: #ADAFAE;
+   --background-color: rgba(44,44,44,1.00);
+   --border-color: #242424;
    --border-width: 1px;
-   --color: #333333;
+   --color: #ADAFAE;
 }
 .wb-theme-content
 {
-   background-color: #FFFFFF;
+   background-color: #060606;
    background-image: none;
-   border: 1px solid #DDDDDD;
+   border: 1px solid #282828;
    border-radius: 0px;
-   color: #333333;
-   --background-color: rgba(255,255,255,1.00);
-   --border-color: #DDDDDD;
+   color: #ADAFAE;
+   --background-color: rgba(6,6,6,1.00);
+   --border-color: #282828;
    --border-width: 1px;
-   --color: #333333;
-   --icon-color: #444444;
-   --colorize: invert(25%) sepia(2%) saturate(16%) hue-rotate(84deg) brightness(98%) contrast(93%);
+   --color: #ADAFAE;
+   --icon-color: #2A9FD6;
+   --colorize: invert(61%) sepia(52%) saturate(2851%) hue-rotate(167deg) brightness(91%) contrast(83%);
 }
 .wb-theme-button, .wb-theme-static
 {
-   background-color: #F6F6F6;
+   background-color: #2A9FD6;
    background-image: none;
-   border: 1px solid #C5C5C5;
+   border: 1px solid #2A9FD6;
    border-radius: 0px;
-   color: #454545;
-   --background-color: rgba(246,246,246,1.00);
-   --border-color: #C5C5C5;
+   color: #FFFFFF;
+   --background-color: rgba(42,159,214,1.00);
+   --border-color: #2A9FD6;
    --border-width: 1px;
-   --color: #454545;
+   --color: #FFFFFF;
 }
 .wb-theme-button:hover
 {
-   background-color: #EDEDED;
+   background-color: #2487B6;
    background-image: none;
-   border: 1px solid #CCCCCC;
+   border: 1px solid #227FAB;
    border-radius: 0px;
-   color: #2B2B2B;
-   --background-color: rgba(237,237,237,1.00);
-   --border-color: #CCCCCC;
+   color: #FFFFFF;
+   --background-color: rgba(36,135,182,1.00);
+   --border-color: #227FAB;
    --border-width: 1px;
-   --color: #2B2B2B;
+   --color: #FFFFFF;
 }
 .wb-theme-button.active, .wb-theme-button:active, .active > .wb-theme-button
 {
-   background-color: #3370B7;
+   background-color: #227FAB;
    background-image: none;
-   border: 1px solid #2E6DA4;
+   border: 1px solid #2077A1;
    border-radius: 0px;
    color: #FFFFFF;
-   --background-color: rgba(51,112,183,1.00);
-   --border-color: #2E6DA4;
+   --background-color: rgba(34,127,171,1.00);
+   --border-color: #2077A1;
    --border-width: 1px;
    --color: #FFFFFF;
 }
 .darktheme .wb-theme-header
 {
-   background-color: #272B2F;
+   background-color: #2E2E2E;
    background-image: none;
-   border: 1px solid #424549;
+   border: 1px solid #484848;
    border-radius: 0px;
-   color: #CCCCCC;
-   --background-color: rgba(39,43,47,1.00);
-   --border-color: #424549;
+   color: #DEE2E6;
+   --background-color: rgba(46,46,46,1.00);
+   --border-color: #484848;
    --border-width: 1px;
-   --color: #CCCCCC;
+   --color: #DEE2E6;
 }
 .darktheme .wb-theme-content
 {
    background-color: #212529;
    background-image: none;
-   border: 1px solid #495057;
+   border: 1px solid #333333;
    border-radius: 0px;
-   color: #CCCCCC;
+   color: #DEE2E6;
    --background-color: rgba(33,37,41,1.00);
-   --border-color: #495057;
+   --border-color: #333333;
    --border-width: 1px;
-   --color: #CCCCCC;
-   --icon-color: #3370B7;
-   --colorize: invert(30%) sepia(71%) saturate(1396%) hue-rotate(192deg) brightness(97%) contrast(75%);
+   --color: #DEE2E6;
+   --icon-color: #2A9FD6;
+   --colorize: invert(60%) sepia(79%) saturate(1792%) hue-rotate(168deg) brightness(88%) contrast(90%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
-   background-color: #090909;
+   background-color: #2A9FD6;
    background-image: none;
-   border: 1px solid #3A3A3A;
+   border: 1px solid #2A9FD6;
    border-radius: 0px;
-   color: #BABABA;
-   --background-color: rgba(9,9,9,1.00);
-   --border-color: #3A3A3A;
+   color: #FFFFFF;
+   --background-color: rgba(42,159,214,1.00);
+   --border-color: #2A9FD6;
    --border-width: 1px;
-   --color: #BABABA;
+   --color: #FFFFFF;
 }
 .darktheme .wb-theme-button:hover
 {
-   background-color: #121212;
+   background-color: #2487B6;
    background-image: none;
-   border: 1px solid #333333;
+   border: 1px solid #227FAB;
    border-radius: 0px;
-   color: #D4D4D4;
-   --background-color: rgba(18,18,18,1.00);
-   --border-color: #333333;
+   color: #FFFFFF;
+   --background-color: rgba(36,135,182,1.00);
+   --border-color: #227FAB;
    --border-width: 1px;
-   --color: #D4D4D4;
+   --color: #FFFFFF;
 }
 .darktheme .wb-theme-button.active, .darktheme .wb-theme-button:active, .active > .wb-theme-button
 {
-   background-color: #3370B7;
+   background-color: #227FAB;
    background-image: none;
-   border: 1px solid #2E6DA4;
+   border: 1px solid #2077A1;
    border-radius: 0px;
    color: #FFFFFF;
-   --background-color: rgba(51,112,183,1.00);
-   --border-color: #2E6DA4;
+   --background-color: rgba(34,127,171,1.00);
+   --border-color: #2077A1;
    --border-width: 1px;
    --color: #FFFFFF;
 }
@@ -235,9 +235,8 @@ a:hover
    top: 0;
    width: 100%;
    height: 100%;
-   border: 0px solid #555555;
+   border: 0px solid #4F4F4F;
    border-radius: 0px;
-   box-shadow: 0px 0px 4px #000000;
 }
 #wb_Text3 
 {
@@ -352,6 +351,20 @@ a:hover
 {
    text-align: center;
 }
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
 #wb_Shape1
 {
    position: absolute;
@@ -409,7 +422,7 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 696px;
+   left: 695px;
    top: 230px;
    width: 258px;
    height: 258px;
@@ -419,7 +432,7 @@ a:hover
 {
    position: absolute;
    left: 354px;
-   top: 1563px;
+   top: 1545px;
    width: 940px;
    height: 120px;
    text-align: center;
@@ -452,17 +465,27 @@ a:hover
 #wb_Text2
 {
    position: absolute;
-   left: 642px;
-   top: 122px;
-   width: 365px;
+   left: 668px;
+   top: 124px;
+   width: 371px;
    height: 75px;
    z-index: 4;
+}
+#wb_Text10
+{
+   position: absolute;
+   left: 762px;
+   top: 199px;
+   width: 125px;
+   height: 39px;
+   text-align: center;
+   z-index: 15;
 }
 #wb_Text3
 {
    position: absolute;
-   left: 157px;
-   top: 145px;
+   left: 124px;
+   top: 162px;
    width: 382px;
    height: 288px;
    text-align: center;
@@ -481,7 +504,7 @@ a:hover
 {
    position: absolute;
    left: 1039px;
-   top: 215px;
+   top: 214px;
    width: 572px;
    height: 96px;
    text-align: center;
@@ -490,10 +513,10 @@ a:hover
 #wb_MediaPlayer1
 {
    position: absolute;
-   left: 436px;
-   top: 545px;
-   width: 779px;
-   height: 584px;
+   left: 417px;
+   top: 488px;
+   width: 816px;
+   height: 634px;
    z-index: 5;
 }
 @media only screen and (max-width: 1649px)
