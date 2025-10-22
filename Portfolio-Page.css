@@ -1,10 +1,3 @@
-div#container
-{
-   width: 1650px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
    background-color: #4B0082;
@@ -15,7 +8,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 #wb_Text1 
 {
@@ -182,4 +175,305 @@ body
 #wb_Text4 div
 {
    text-align: left;
+}
+#wb_Shape2
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 1648px;
+   height: 99px;
+   z-index: 3;
+}
+#wb_Shape3
+{
+   position: absolute;
+   left: 5px;
+   top: 3px;
+   width: 92px;
+   height: 92px;
+   z-index: 4;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 855px;
+   top: 703px;
+   width: 211px;
+   height: 281px;
+   z-index: 2;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 699px;
+   top: 128px;
+   width: 251px;
+   height: 75px;
+   z-index: 12;
+}
+#HorizontalLine1
+{
+   position: absolute;
+   left: 0px;
+   top: 99px;
+   width: 1650px;
+   z-index: 11;
+}
+#wb_footer28Text
+{
+   position: absolute;
+   left: 490px;
+   top: 1059px;
+   width: 940px;
+   height: 62px;
+   text-align: center;
+   z-index: 1;
+}
+#wb_Image5
+{
+   position: absolute;
+   left: 2px;
+   top: 0px;
+   width: 99px;
+   height: 99px;
+   z-index: 5;
+}
+#Shape2
+{
+   width: 1648px;
+   height: 99px;
+}
+#Shape3
+{
+   width: 92px;
+   height: 92px;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 674px;
+   top: 997px;
+   width: 572px;
+   height: 84px;
+   text-align: center;
+   z-index: 0;
+}
+#wb_Text11
+{
+   position: absolute;
+   left: 1487px;
+   top: 25px;
+   width: 106px;
+   height: 48px;
+   z-index: 10;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 1114px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   z-index: 6;
+}
+#wb_Text10
+{
+   position: absolute;
+   left: 1367px;
+   top: 25px;
+   width: 97px;
+   height: 48px;
+   z-index: 9;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 1023px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   z-index: 7;
+}
+#wb_Text9
+{
+   position: absolute;
+   left: 1214px;
+   top: 25px;
+   width: 137px;
+   height: 48px;
+   z-index: 8;
+}
+@media only screen
+{
+body
+{
+   background-color: #4B0082;
+   background-image: url('images/Portfolio-Page_bkgrnd.png');
+}
+#wb_Text1
+{
+   left: 674px;
+   top: 997px;
+   width: 572px;
+   height: 84px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_footer28Text
+{
+   left: 490px;
+   top: 1059px;
+   width: 940px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+}
+#wb_footer28Text
+{
+   margin: 0;
+   padding: 15px 0 0 0;
+}
+#wb_Image1
+{
+   left: 855px;
+   top: 703px;
+   width: 211px;
+   height: 281px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Shape2
+{
+   left: 0px;
+   top: 0px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Shape3
+{
+   left: 5px;
+   top: 3px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Image5
+{
+   left: 2px;
+   top: 0px;
+   width: 99px;
+   height: 99px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 1114px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 1023px;
+   top: 25px;
+   width: 77px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text9
+{
+   left: 1214px;
+   top: 25px;
+   width: 137px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text10
+{
+   left: 1367px;
+   top: 25px;
+   width: 97px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text11
+{
+   left: 1487px;
+   top: 25px;
+   width: 106px;
+   height: 48px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text11
+{
+   margin: 0;
+   padding: 0;
+}
+#HorizontalLine1
+{
+   left: 0px;
+   top: 99px;
+   width: 1650px;
+   height: 4px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#HorizontalLine1
+{
+   border-color: #FF1493;
+   border-bottom-width: 4px;
+}
+#wb_Text4
+{
+   left: 699px;
+   top: 128px;
+   width: 251px;
+   height: 75px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
 }
