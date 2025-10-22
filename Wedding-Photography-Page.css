@@ -1,6 +1,6 @@
 div#container
 {
-   width: 320px;
+   width: 1649px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(54%) sepia(69%) saturate(1327%) hue-rotate(165deg) brightness(93%) contrast(78%);
+   --colorize: invert(49%) sepia(75%) saturate(460%) hue-rotate(154deg) brightness(96%) contrast(95%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(69%) sepia(79%) saturate(3266%) hue-rotate(165deg) brightness(90%) contrast(84%);
+   --colorize: invert(49%) sepia(82%) saturate(472%) hue-rotate(154deg) brightness(95%) contrast(85%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -336,21 +336,6 @@ a:hover
    margin: 0;
    padding: 0;
 }
-#wb_Image5
-{
-   vertical-align: top;
-}
-#Image5
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -420,6 +405,21 @@ a:hover
 {
    text-align: center;
 }
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Shape1
 {
    position: absolute;
@@ -465,6 +465,15 @@ a:hover
    height: 281px;
    z-index: 1;
 }
+#wb_Image3
+{
+   position: absolute;
+   left: 22px;
+   top: 130px;
+   width: 827px;
+   height: 590px;
+   z-index: 18;
+}
 #SlideShow3
 {
    position: absolute;
@@ -472,7 +481,7 @@ a:hover
    top: 593px;
    width: 569px;
    height: 918px;
-   z-index: 17;
+   z-index: 16;
 }
 #HorizontalLine1
 {
@@ -519,15 +528,6 @@ a:hover
    text-align: center;
    z-index: 2;
 }
-#wb_Image5
-{
-   position: absolute;
-   left: 0px;
-   top: 107px;
-   width: 868px;
-   height: 312px;
-   z-index: 14;
-}
 #wb_Text7
 {
    position: absolute;
@@ -554,7 +554,7 @@ a:hover
    top: 467px;
    width: 633px;
    height: 111px;
-   z-index: 16;
+   z-index: 15;
 }
 #wb_Text1
 {
@@ -569,11 +569,11 @@ a:hover
 #wb_Text2
 {
    position: absolute;
-   left: 309px;
-   top: 437px;
-   width: 251px;
-   height: 75px;
-   z-index: 15;
+   left: 198px;
+   top: 1061px;
+   width: 411px;
+   height: 128px;
+   z-index: 14;
 }
 #wb_Text3
 {
@@ -583,7 +583,7 @@ a:hover
    width: 259px;
    height: 160px;
    text-align: center;
-   z-index: 18;
+   z-index: 17;
 }
 #wb_Text8
 {
@@ -604,7 +604,7 @@ a:hover
    text-align: center;
    z-index: 4;
 }
-@media only screen
+@media only screen and (max-width: 1648px) and (orientation: landscape)
 {
 div#container
 {
@@ -612,10 +612,10 @@ div#container
 }
 #wb_Text1
 {
-   left: 101px;
-   top: 13px;
-   width: 193px;
-   height: 95px;
+   left: 539px;
+   top: 2512px;
+   width: 572px;
+   height: 96px;
    visibility: visible;
    display: inline;
 }
@@ -662,10 +662,10 @@ div#container
 }
 #wb_Text9
 {
-   left: 101px;
-   top: 13px;
-   width: 193px;
-   height: 95px;
+   left: 233px;
+   top: 1261px;
+   width: 402px;
+   height: 96px;
    visibility: visible;
    display: inline;
 }
@@ -692,10 +692,10 @@ div#container
 }
 #wb_Image1
 {
-   left: 0px;
-   top: 5px;
-   width: 110px;
-   height: 110px;
+   left: 2px;
+   top: 4px;
+   width: 99px;
+   height: 99px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -786,17 +786,6 @@ div#container
    border-color: #FF1493;
    border-bottom-width: 4px;
 }
-#wb_Image5
-{
-   left: 0px;
-   top: 107px;
-   width: 868px;
-   height: 312px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
 #wb_Text2
 {
    left: 309px;
@@ -827,8 +816,8 @@ div#container
 }
 #SlideShow3
 {
-   left: 900px;
-   top: 586px;
+   left: 912px;
+   top: 593px;
    width: 569px;
    height: 918px;
    visibility: visible;

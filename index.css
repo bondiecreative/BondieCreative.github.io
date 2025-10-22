@@ -1,9 +1,21 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -853px;
+   float:left
+}
 div#container
 {
-   width: 320px;
+   width: 1649px;
+   height: 1707px;
+   margin: 0 auto;
    position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
+   clear: left;
 }
 body
 {
@@ -12,7 +24,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 a
 {
@@ -34,7 +46,7 @@ a:hover
 }
 #preloader
 {
-   background: #000000 url("images/windmill.gif") no-repeat center center;
+   background: #000000 url("images/cube.gif") no-repeat center center;
    bottom: 0;
    position: fixed;
    top: 0;
@@ -65,7 +77,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(56%) sepia(78%) saturate(1786%) hue-rotate(168deg) brightness(92%) contrast(81%);
+   --colorize: invert(64%) sepia(19%) saturate(3260%) hue-rotate(168deg) brightness(85%) contrast(97%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -127,7 +139,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(52%) sepia(100%) saturate(927%) hue-rotate(168deg) brightness(89%) contrast(86%);
+   --colorize: invert(62%) sepia(10%) saturate(5803%) hue-rotate(168deg) brightness(87%) contrast(91%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -443,8 +455,8 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 31px;
-   top: 1px;
+   left: 868px;
+   top: 173px;
    width: 258px;
    height: 258px;
    z-index: 3;
@@ -491,8 +503,8 @@ a:hover
 #wb_Text11
 {
    position: absolute;
-   left: 31px;
-   top: 228px;
+   left: 553px;
+   top: 238px;
    width: 258px;
    height: 96px;
    text-align: center;
@@ -526,11 +538,12 @@ a:hover
    height: 638px;
    z-index: 4;
 }
-@media only screen
+@media only screen and (max-width: 1648px) and (orientation: landscape)
 {
 div#container
 {
-   width: 1909px;
+   width: 1648px;
+   height: 1439px;
 }
 #wb_Text1
 {

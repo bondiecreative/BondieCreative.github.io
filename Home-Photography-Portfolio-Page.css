@@ -1,6 +1,6 @@
 div#container
 {
-   width: 320px;
+   width: 1649px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(65%) sepia(94%) saturate(2619%) hue-rotate(168deg) brightness(88%) contrast(89%);
+   --colorize: invert(55%) sepia(42%) saturate(791%) hue-rotate(154deg) brightness(90%) contrast(93%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(60%) sepia(90%) saturate(1784%) hue-rotate(168deg) brightness(88%) contrast(90%);
+   --colorize: invert(62%) sepia(66%) saturate(2485%) hue-rotate(166deg) brightness(90%) contrast(83%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -213,20 +213,6 @@ a:hover
    top: 0;
    width: 100%;
    height: 100%;
-}
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text9 div
-{
-   text-align: center;
 }
 #Shape1
 {
@@ -450,7 +436,7 @@ a:hover
    top: 4px;
    width: 1648px;
    height: 99px;
-   z-index: 5;
+   z-index: 4;
 }
 #wb_Shape2
 {
@@ -459,7 +445,7 @@ a:hover
    top: 7px;
    width: 92px;
    height: 92px;
-   z-index: 6;
+   z-index: 5;
 }
 #wb_Image1
 {
@@ -468,7 +454,7 @@ a:hover
    top: 4px;
    width: 99px;
    height: 99px;
-   z-index: 7;
+   z-index: 6;
 }
 #wb_Text4
 {
@@ -477,7 +463,7 @@ a:hover
    top: 29px;
    width: 77px;
    height: 48px;
-   z-index: 8;
+   z-index: 7;
 }
 #wb_Image2
 {
@@ -495,7 +481,7 @@ a:hover
    top: 649px;
    width: 524px;
    height: 304px;
-   z-index: 20;
+   z-index: 19;
 }
 #HorizontalLine1
 {
@@ -503,7 +489,7 @@ a:hover
    left: 0px;
    top: 103px;
    width: 1650px;
-   z-index: 13;
+   z-index: 12;
 }
 #wb_Text5
 {
@@ -512,7 +498,7 @@ a:hover
    top: 29px;
    width: 77px;
    height: 48px;
-   z-index: 9;
+   z-index: 8;
 }
 #wb_Text6
 {
@@ -521,7 +507,7 @@ a:hover
    top: 29px;
    width: 137px;
    height: 48px;
-   z-index: 10;
+   z-index: 9;
 }
 #wb_Image4
 {
@@ -549,7 +535,7 @@ a:hover
    top: 29px;
    width: 97px;
    height: 48px;
-   z-index: 11;
+   z-index: 10;
 }
 #Shape1
 {
@@ -563,7 +549,7 @@ a:hover
    top: 716px;
    width: 251px;
    height: 149px;
-   z-index: 18;
+   z-index: 17;
 }
 #Shape2
 {
@@ -577,15 +563,15 @@ a:hover
    top: 530px;
    width: 251px;
    height: 149px;
-   z-index: 17;
+   z-index: 16;
 }
 #wb_Text1
 {
    position: absolute;
-   left: 539px;
-   top: 1457px;
-   width: 572px;
-   height: 96px;
+   left: 25px;
+   top: 1485px;
+   width: 268px;
+   height: 144px;
    text-align: center;
    z-index: 0;
 }
@@ -596,7 +582,7 @@ a:hover
    top: 326px;
    width: 251px;
    height: 149px;
-   z-index: 16;
+   z-index: 15;
 }
 #wb_Text2
 {
@@ -605,7 +591,7 @@ a:hover
    top: 132px;
    width: 346px;
    height: 107px;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_Text3
 {
@@ -615,7 +601,7 @@ a:hover
    width: 512px;
    height: 336px;
    text-align: center;
-   z-index: 19;
+   z-index: 18;
 }
 #wb_Text10
 {
@@ -624,7 +610,7 @@ a:hover
    top: 132px;
    width: 251px;
    height: 149px;
-   z-index: 15;
+   z-index: 14;
 }
 #wb_Text8
 {
@@ -633,19 +619,9 @@ a:hover
    top: 29px;
    width: 106px;
    height: 48px;
-   z-index: 12;
+   z-index: 11;
 }
-#wb_Text9
-{
-   position: absolute;
-   left: 36px;
-   top: 1028px;
-   width: 272px;
-   height: 144px;
-   text-align: center;
-   z-index: 4;
-}
-@media only screen
+@media only screen and (max-width: 1648px) and (orientation: landscape)
 {
 div#container
 {
@@ -653,10 +629,10 @@ div#container
 }
 #wb_Text1
 {
-   left: 101px;
-   top: 13px;
+   left: 729px;
+   top: 1194px;
    width: 193px;
-   height: 95px;
+   height: 192px;
    visibility: visible;
    display: inline;
 }
@@ -701,23 +677,9 @@ div#container
    margin: 0;
    padding: 0;
 }
-#wb_Text9
-{
-   left: 101px;
-   top: 13px;
-   width: 193px;
-   height: 95px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_Shape1
 {
-   left: 1px;
+   left: 2px;
    top: 4px;
    visibility: visible;
    display: inline;
