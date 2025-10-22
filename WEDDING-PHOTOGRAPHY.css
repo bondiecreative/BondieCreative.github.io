@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(66%) sepia(21%) saturate(6087%) hue-rotate(166deg) brightness(90%) contrast(84%);
+   --colorize: invert(69%) sepia(55%) saturate(3296%) hue-rotate(166deg) brightness(86%) contrast(93%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(59%) sepia(87%) saturate(1283%) hue-rotate(166deg) brightness(87%) contrast(91%);
+   --colorize: invert(48%) sepia(98%) saturate(608%) hue-rotate(164deg) brightness(94%) contrast(77%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -478,7 +478,7 @@ a:hover
 {
    position: absolute;
    left: 912px;
-   top: 593px;
+   top: 502px;
    width: 569px;
    height: 918px;
    z-index: 16;
@@ -512,10 +512,10 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 288px;
-   top: 1357px;
-   width: 258px;
-   height: 258px;
+   left: 319px;
+   top: 1193px;
+   width: 233px;
+   height: 233px;
    z-index: 3;
 }
 #wb_footer28Text
@@ -550,8 +550,8 @@ a:hover
 #wb_Text12
 {
    position: absolute;
-   left: 900px;
-   top: 467px;
+   left: 912px;
+   top: 358px;
    width: 633px;
    height: 111px;
    z-index: 15;
@@ -569,10 +569,10 @@ a:hover
 #wb_Text2
 {
    position: absolute;
-   left: 198px;
-   top: 1061px;
-   width: 411px;
-   height: 128px;
+   left: 80px;
+   top: 777px;
+   width: 761px;
+   height: 256px;
    z-index: 14;
 }
 #wb_Text3
@@ -597,8 +597,8 @@ a:hover
 #wb_Text9
 {
    position: absolute;
-   left: 233px;
-   top: 1261px;
+   left: 234px;
+   top: 1097px;
    width: 402px;
    height: 96px;
    text-align: center;
