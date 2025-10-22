@@ -1,10 +1,3 @@
-div#container
-{
-   width: 1650px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
    border-width: 0 !important;
@@ -12,7 +5,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 a
 {
@@ -56,7 +49,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(51%) sepia(70%) saturate(517%) hue-rotate(155deg) brightness(93%) contrast(90%);
+   --colorize: invert(59%) sepia(13%) saturate(6173%) hue-rotate(165deg) brightness(94%) contrast(77%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +111,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(63%) sepia(87%) saturate(2214%) hue-rotate(168deg) brightness(87%) contrast(92%);
+   --colorize: invert(48%) sepia(13%) saturate(2526%) hue-rotate(154deg) brightness(110%) contrast(91%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -526,10 +519,6 @@ a:hover
 }
 @media only screen and (max-width: 1649px)
 {
-div#container
-{
-   width: 320px;
-}
 #wb_Text1
 {
    left: 101px;
