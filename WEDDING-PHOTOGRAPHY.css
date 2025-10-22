@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(52%) sepia(40%) saturate(861%) hue-rotate(155deg) brightness(96%) contrast(89%);
+   --colorize: invert(52%) sepia(53%) saturate(592%) hue-rotate(154deg) brightness(94%) contrast(100%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(61%) sepia(21%) saturate(6049%) hue-rotate(168deg) brightness(92%) contrast(80%);
+   --colorize: invert(46%) sepia(99%) saturate(355%) hue-rotate(154deg) brightness(97%) contrast(98%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -351,39 +351,18 @@ a:hover
 {
    text-align: left;
 }
-#wb_Text12 
+#SlideShow3 .image
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text12 div
-{
-   text-align: left;
-}
-#SlideShow3
-{
-   margin: 0;
-   margin-left: auto !important;
-   margin-right: auto !important;
-   max-width: 1920px;
-}
-.lSSlideOuter .lSPager.lSGallery li, .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover
-{
-   border-radius: 0px;
-}
-#SlideShow3 img
-{
-   object-fit: cover;
+   border-width: 0;
+   border-radius: inherit;
+   left: 0;
+   top: 0;
    width: 100%;
+   height: 100%;
 }
-#SlideShow3 .lSGallery
+#SlideShow3 a:not(:first-child) .image
 {
-   display: inline-flex;
+   display: none;
 }
 #SlideShow3
 {
@@ -419,6 +398,36 @@ a:hover
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_Image5
+{
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   box-shadow: 7px 0px 0px #48D1CC;
+}
+#wb_Text10 div
+{
+   text-align: left;
 }
 #wb_Shape1
 {
@@ -459,8 +468,8 @@ a:hover
 #wb_Image2
 {
    position: absolute;
-   left: 720px;
-   top: 2206px;
+   left: 843px;
+   top: 1380px;
    width: 211px;
    height: 281px;
    z-index: 1;
@@ -468,20 +477,20 @@ a:hover
 #wb_Image3
 {
    position: absolute;
-   left: 22px;
-   top: 130px;
-   width: 827px;
-   height: 590px;
-   z-index: 18;
+   left: 1139px;
+   top: 1380px;
+   width: 348px;
+   height: 249px;
+   z-index: 17;
 }
 #SlideShow3
 {
    position: absolute;
-   left: 912px;
-   top: 502px;
-   width: 569px;
-   height: 918px;
-   z-index: 16;
+   left: 160px;
+   top: 362px;
+   width: 752px;
+   height: 907px;
+   z-index: 15;
 }
 #HorizontalLine1
 {
@@ -512,8 +521,8 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 319px;
-   top: 1193px;
+   left: 491px;
+   top: 1492px;
    width: 233px;
    height: 233px;
    z-index: 3;
@@ -521,12 +530,21 @@ a:hover
 #wb_footer28Text
 {
    position: absolute;
-   left: 354px;
-   top: 2600px;
+   left: 295px;
+   top: 1860px;
    width: 940px;
    height: 120px;
    text-align: center;
    z-index: 2;
+}
+#wb_Image5
+{
+   position: absolute;
+   left: 1158px;
+   top: 362px;
+   width: 515px;
+   height: 515px;
+   z-index: 18;
 }
 #wb_Text7
 {
@@ -547,20 +565,11 @@ a:hover
    width: 92px;
    height: 92px;
 }
-#wb_Text12
-{
-   position: absolute;
-   left: 912px;
-   top: 358px;
-   width: 633px;
-   height: 111px;
-   z-index: 15;
-}
 #wb_Text1
 {
    position: absolute;
-   left: 539px;
-   top: 2512px;
+   left: 480px;
+   top: 1772px;
    width: 572px;
    height: 96px;
    text-align: center;
@@ -569,21 +578,30 @@ a:hover
 #wb_Text2
 {
    position: absolute;
-   left: 80px;
-   top: 777px;
-   width: 761px;
-   height: 256px;
+   left: 160px;
+   top: 179px;
+   width: 1025px;
+   height: 107px;
    z-index: 14;
+}
+#wb_Text10
+{
+   position: absolute;
+   left: 1175px;
+   top: 1062px;
+   width: 397px;
+   height: 213px;
+   z-index: 19;
 }
 #wb_Text3
 {
    position: absolute;
-   left: 1286px;
-   top: 160px;
-   width: 259px;
-   height: 160px;
+   left: 1248px;
+   top: 164px;
+   width: 334px;
+   height: 107px;
    text-align: center;
-   z-index: 17;
+   z-index: 16;
 }
 #wb_Text8
 {
@@ -597,8 +615,8 @@ a:hover
 #wb_Text9
 {
    position: absolute;
-   left: 234px;
-   top: 1097px;
+   left: 406px;
+   top: 1380px;
    width: 402px;
    height: 96px;
    text-align: center;
@@ -800,20 +818,6 @@ div#container
    margin: 0;
    padding: 0;
 }
-#wb_Text12
-{
-   left: 900px;
-   top: 467px;
-   width: 633px;
-   height: 111px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text12
-{
-   margin: 0;
-   padding: 0;
-}
 #SlideShow3
 {
    left: 912px;
@@ -833,6 +837,31 @@ div#container
    display: inline;
 }
 #wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Image5
+{
+   left: 695px;
+   top: 230px;
+   width: 258px;
+   height: 258px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text10
+{
+   left: 309px;
+   top: 437px;
+   width: 251px;
+   height: 75px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text10
 {
    margin: 0;
    padding: 0;
