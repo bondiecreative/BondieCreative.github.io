@@ -1,3 +1,10 @@
+div#container
+{
+   width: 320px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
 body
 {
    border-width: 0 !important;
@@ -5,7 +12,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -49,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(59%) sepia(15%) saturate(2610%) hue-rotate(159deg) brightness(91%) contrast(84%);
+   --colorize: invert(65%) sepia(94%) saturate(2619%) hue-rotate(168deg) brightness(88%) contrast(89%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -111,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(61%) sepia(13%) saturate(4578%) hue-rotate(168deg) brightness(89%) contrast(88%);
+   --colorize: invert(60%) sepia(90%) saturate(1784%) hue-rotate(168deg) brightness(88%) contrast(90%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -519,8 +526,8 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 156px;
-   top: 1190px;
+   left: 51px;
+   top: 1227px;
    width: 242px;
    height: 258px;
    z-index: 3;
@@ -594,7 +601,7 @@ a:hover
 #wb_Text2
 {
    position: absolute;
-   left: 101px;
+   left: 104px;
    top: 132px;
    width: 346px;
    height: 107px;
@@ -631,15 +638,19 @@ a:hover
 #wb_Text9
 {
    position: absolute;
-   left: 101px;
-   top: 1094px;
-   width: 402px;
-   height: 96px;
+   left: 36px;
+   top: 1028px;
+   width: 272px;
+   height: 144px;
    text-align: center;
    z-index: 4;
 }
 @media only screen
 {
+div#container
+{
+   width: 1648px;
+}
 #wb_Text1
 {
    left: 101px;
