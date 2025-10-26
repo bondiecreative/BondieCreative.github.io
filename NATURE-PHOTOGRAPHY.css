@@ -1,3 +1,10 @@
+div#container
+{
+   width: 1649px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
 body
 {
    background-color: #000000;
@@ -7,7 +14,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -477,6 +484,10 @@ a:hover
 }
 @media only screen and (max-width: 1648px) and (orientation: landscape)
 {
+div#container
+{
+   width: 1649px;
+}
 body
 {
    background-color: #000000;

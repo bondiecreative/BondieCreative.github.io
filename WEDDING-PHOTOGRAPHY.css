@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(53%) sepia(98%) saturate(983%) hue-rotate(167deg) brightness(89%) contrast(88%);
+   --colorize: invert(62%) sepia(49%) saturate(2847%) hue-rotate(168deg) brightness(90%) contrast(86%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(51%) sepia(94%) saturate(1323%) hue-rotate(167deg) brightness(94%) contrast(77%);
+   --colorize: invert(64%) sepia(13%) saturate(7118%) hue-rotate(168deg) brightness(89%) contrast(87%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -177,7 +177,7 @@ a:hover
    border-radius: inherit;
    left: 0;
    top: 0;
-   width: 100%;
+   width: auto;
    height: 100%;
 }
 #SlideShow3
@@ -225,35 +225,6 @@ a:hover
    text-align: center;
 }
 #wb_footer28Text div
-{
-   text-align: center;
-}
-#wb_Image4
-{
-   vertical-align: top;
-}
-#Image4
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text9 div
 {
    text-align: center;
 }
@@ -432,7 +403,7 @@ a:hover
    top: 4px;
    width: 1648px;
    height: 99px;
-   z-index: 7;
+   z-index: 5;
 }
 #wb_Shape2
 {
@@ -441,7 +412,7 @@ a:hover
    top: 7px;
    width: 92px;
    height: 92px;
-   z-index: 8;
+   z-index: 6;
 }
 #wb_Image1
 {
@@ -450,7 +421,7 @@ a:hover
    top: 4px;
    width: 99px;
    height: 99px;
-   z-index: 9;
+   z-index: 7;
 }
 #wb_Text4
 {
@@ -459,13 +430,13 @@ a:hover
    top: 29px;
    width: 77px;
    height: 48px;
-   z-index: 10;
+   z-index: 8;
 }
 #wb_Image2
 {
    position: absolute;
-   left: 975px;
-   top: 1488px;
+   left: 712px;
+   top: 1628px;
    width: 211px;
    height: 281px;
    z-index: 3;
@@ -476,7 +447,7 @@ a:hover
    left: 0px;
    top: 103px;
    width: 1650px;
-   z-index: 15;
+   z-index: 13;
 }
 #wb_Text5
 {
@@ -485,22 +456,23 @@ a:hover
    top: 29px;
    width: 77px;
    height: 48px;
-   z-index: 11;
+   z-index: 9;
 }
 #SlideShow3
 {
    position: absolute;
-   left: 150px;
-   top: 410px;
-   width: 792px;
-   height: 907px;
+   left: 258px;
+   top: 436px;
+   width: 1136px;
+   height: 754px;
+   overflow: hidden;
    z-index: 1;
 }
 #wb_Image3
 {
    position: absolute;
-   left: 86px;
-   top: 339px;
+   left: 106px;
+   top: 289px;
    width: 1476px;
    height: 1054px;
    opacity: 0.50;
@@ -513,22 +485,13 @@ a:hover
    top: 29px;
    width: 137px;
    height: 48px;
-   z-index: 12;
-}
-#wb_Image4
-{
-   position: absolute;
-   left: 623px;
-   top: 1600px;
-   width: 233px;
-   height: 233px;
-   z-index: 5;
+   z-index: 10;
 }
 #wb_footer28Text
 {
    position: absolute;
-   left: 427px;
-   top: 1968px;
+   left: 359px;
+   top: 2083px;
    width: 940px;
    height: 120px;
    text-align: center;
@@ -537,11 +500,11 @@ a:hover
 #wb_Image5
 {
    position: absolute;
-   left: 1004px;
-   top: 410px;
-   width: 515px;
-   height: 515px;
-   z-index: 18;
+   left: 1410px;
+   top: 1189px;
+   width: 165px;
+   height: 165px;
+   z-index: 16;
 }
 #wb_Text7
 {
@@ -550,7 +513,7 @@ a:hover
    top: 29px;
    width: 97px;
    height: 48px;
-   z-index: 13;
+   z-index: 11;
 }
 #Shape1
 {
@@ -565,8 +528,8 @@ a:hover
 #wb_Text1
 {
    position: absolute;
-   left: 612px;
-   top: 1880px;
+   left: 543px;
+   top: 1963px;
    width: 572px;
    height: 96px;
    text-align: center;
@@ -575,30 +538,30 @@ a:hover
 #wb_Text2
 {
    position: absolute;
-   left: 160px;
-   top: 179px;
+   left: 153px;
+   top: 155px;
    width: 1025px;
    height: 107px;
-   z-index: 16;
+   z-index: 14;
 }
 #wb_Text10
 {
    position: absolute;
-   left: 1084px;
-   top: 925px;
+   left: 106px;
+   top: 1380px;
    width: 397px;
    height: 213px;
-   z-index: 19;
+   z-index: 17;
 }
 #wb_Text3
 {
    position: absolute;
-   left: 1248px;
-   top: 164px;
+   left: 1241px;
+   top: 140px;
    width: 334px;
    height: 107px;
    text-align: center;
-   z-index: 17;
+   z-index: 15;
 }
 #wb_Text8
 {
@@ -607,17 +570,7 @@ a:hover
    top: 29px;
    width: 106px;
    height: 48px;
-   z-index: 14;
-}
-#wb_Text9
-{
-   position: absolute;
-   left: 538px;
-   top: 1488px;
-   width: 402px;
-   height: 96px;
-   text-align: center;
-   z-index: 6;
+   z-index: 12;
 }
 @media only screen and (max-width: 1648px) and (orientation: landscape)
 {
@@ -672,31 +625,6 @@ div#container
 {
    margin: 0;
    padding: 15px 0 0 0;
-}
-#wb_Image4
-{
-   left: 288px;
-   top: 1357px;
-   width: 258px;
-   height: 258px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
-}
-#wb_Text9
-{
-   left: 233px;
-   top: 1261px;
-   width: 402px;
-   height: 96px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
-{
-   margin: 0;
-   padding: 0;
 }
 #wb_Shape1
 {

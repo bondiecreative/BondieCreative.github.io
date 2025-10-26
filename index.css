@@ -1,21 +1,9 @@
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -853px;
-   float:left
-}
 div#container
 {
    width: 1649px;
-   height: 1707px;
-   margin: 0 auto;
    position: relative;
-   clear: left;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
 body
 {
@@ -24,7 +12,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -77,7 +65,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(66%) sepia(23%) saturate(5023%) hue-rotate(168deg) brightness(87%) contrast(92%);
+   --colorize: invert(65%) sepia(22%) saturate(5631%) hue-rotate(168deg) brightness(89%) contrast(87%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -139,7 +127,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(44%) sepia(100%) saturate(313%) hue-rotate(153deg) brightness(102%) contrast(108%);
+   --colorize: invert(73%) sepia(49%) saturate(4837%) hue-rotate(167deg) brightness(88%) contrast(88%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -242,8 +230,9 @@ a:hover
    top: 0;
    width: 100%;
    height: 100%;
-   border: 2px outset #4F4F4F;
+   border: 4px outset #FFFFFF;
    border-radius: 0px;
+   box-shadow: 0px 0px 5px #FFFFFF;
 }
 #Shape1
 {
@@ -340,20 +329,6 @@ a:hover
 {
    text-align: left;
 }
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text9 div
-{
-   text-align: center;
-}
 #wb_Text11 
 {
    background-color: transparent;
@@ -432,7 +407,7 @@ a:hover
    left: 0px;
    top: 100px;
    width: 1650px;
-   z-index: 15;
+   z-index: 14;
 }
 #wb_Text5
 {
@@ -455,8 +430,8 @@ a:hover
 #wb_Image4
 {
    position: absolute;
-   left: 868px;
-   top: 173px;
+   left: 695px;
+   top: 145px;
    width: 258px;
    height: 258px;
    z-index: 3;
@@ -503,12 +478,12 @@ a:hover
 #wb_Text11
 {
    position: absolute;
-   left: 553px;
-   top: 238px;
-   width: 258px;
-   height: 96px;
+   left: 56px;
+   top: 145px;
+   width: 371px;
+   height: 213px;
    text-align: center;
-   z-index: 14;
+   z-index: 13;
 }
 #wb_Text8
 {
@@ -519,21 +494,11 @@ a:hover
    height: 48px;
    z-index: 12;
 }
-#wb_Text9
-{
-   position: absolute;
-   left: 1039px;
-   top: 238px;
-   width: 572px;
-   height: 96px;
-   text-align: center;
-   z-index: 13;
-}
 #wb_MediaPlayer1
 {
    position: absolute;
    left: 417px;
-   top: 488px;
+   top: 447px;
    width: 820px;
    height: 638px;
    z-index: 4;
@@ -543,7 +508,6 @@ a:hover
 div#container
 {
    width: 1648px;
-   height: 1439px;
 }
 #wb_Text1
 {
@@ -698,20 +662,6 @@ div#container
    display: inline;
 }
 #wb_Text8
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text9
-{
-   left: 101px;
-   top: 13px;
-   width: 193px;
-   height: 95px;
-   visibility: visible;
-   display: inline;
-}
-#wb_Text9
 {
    margin: 0;
    padding: 0;
