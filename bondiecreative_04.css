@@ -1,3 +1,24 @@
+@font-face
+{
+   font-family: "Auto Sharp Pencil";
+   font-display: swap;
+   src: url('verdana.woff') format('woff'),
+        url('verdana.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Segoe UI Emoji";
+   font-display: swap;
+   src: url('seguiemj.woff') format('woff'),
+        url('seguiemj.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Agency FB";
+   font-display: swap;
+   src: url('agencyb.woff') format('woff'),
+        url('agencyb.ttf') format('truetype');
+}
 @keyframes animate-border-fade
 {
    0% { box-shadow: inset 0 0 0 0px #e1e1e1, 0 0 1px transparent;  }
@@ -133,7 +154,4 @@ h6, .h6
    color: #2E74B5;
    --color: #2E74B5;
    background-color: transparent;
-}
-@media only screen and (max-width: 1648px) and (orientation: landscape)
-{
 }

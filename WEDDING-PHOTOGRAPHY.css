@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(60%) sepia(49%) saturate(2059%) hue-rotate(167deg) brightness(88%) contrast(88%);
+   --colorize: invert(50%) sepia(89%) saturate(429%) hue-rotate(154deg) brightness(91%) contrast(88%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(57%) sepia(30%) saturate(1249%) hue-rotate(157deg) brightness(91%) contrast(83%);
+   --colorize: invert(65%) sepia(12%) saturate(6733%) hue-rotate(168deg) brightness(87%) contrast(91%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -600,10 +600,10 @@ div#container
 }
 #wb_Text1
 {
-   left: 539px;
-   top: 2512px;
-   width: 572px;
-   height: 96px;
+   left: 45px;
+   top: 602px;
+   width: 213px;
+   height: 48px;
    visibility: visible;
    display: inline;
 }
@@ -614,10 +614,10 @@ div#container
 }
 #wb_Image2
 {
-   left: 720px;
-   top: 2206px;
-   width: 211px;
-   height: 281px;
+   left: 122px;
+   top: 525px;
+   width: 49px;
+   height: 66px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -625,10 +625,10 @@ div#container
 }
 #wb_footer28Text
 {
-   left: 354px;
-   top: 2600px;
-   width: 940px;
-   height: 120px;
+   left: 27px;
+   top: 618px;
+   width: 267px;
+   height: 69px;
    visibility: visible;
    display: inline;
 }

@@ -56,7 +56,7 @@ a:hover
    --border-width: 1px;
    --color: #ADAFAE;
    --icon-color: #2A9FD6;
-   --colorize: invert(56%) sepia(77%) saturate(1189%) hue-rotate(168deg) brightness(88%) contrast(89%);
+   --colorize: invert(72%) sepia(55%) saturate(3424%) hue-rotate(168deg) brightness(83%) contrast(103%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -118,7 +118,7 @@ a:hover
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #2A9FD6;
-   --colorize: invert(59%) sepia(11%) saturate(7327%) hue-rotate(167deg) brightness(92%) contrast(80%);
+   --colorize: invert(49%) sepia(72%) saturate(509%) hue-rotate(154deg) brightness(97%) contrast(88%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
