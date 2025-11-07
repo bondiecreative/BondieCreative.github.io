@@ -7,13 +7,6 @@
 }
 @font-face
 {
-   font-family: "Segoe UI Emoji";
-   font-display: swap;
-   src: url('seguiemj.woff') format('woff'),
-        url('seguiemj.ttf') format('truetype');
-}
-@font-face
-{
    font-family: "Agency FB";
    font-display: swap;
    src: url('agencyb.woff') format('woff'),
@@ -154,4 +147,7 @@ h6, .h6
    color: #2E74B5;
    --color: #2E74B5;
    background-color: transparent;
+}
+@media only screen and (max-width: 1648px) and (orientation: landscape)
+{
 }
