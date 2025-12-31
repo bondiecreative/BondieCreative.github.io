@@ -1,12 +1,15 @@
-@keyframes jello-horizontal
+@keyframes focus-out
 {
-   0% { transform: rotateX(0deg) ;  }
-   30% { transform: rotateX(0deg) scale3d(1.25,0.75,1.0) ;  }
-   40% { transform: rotateX(0deg) scale3d(0.75,1.25,1.0) ;  }
-   50% { transform: rotateX(0deg) scale3d(1.15,0.85,1.0) ;  }
-   65% { transform: rotateX(0deg) scale3d(0.95,1.05,1.0) ;  }
-   75% { transform: rotateX(0deg) scale3d(1.05,0.95,1.0) ;  }
-   100% { transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+   0% { opacity: 1.0; filter: blur(0);  }
+   100% { opacity: 0.0; filter: blur(20px);  }
+}
+@keyframes transform-3d-flip
+{
+   0% { transform: perspective(400px) rotateX(0deg) ;  }
+   40% { transform: perspective(400px) translate3d(0px,0px,150px) rotateX(0deg) rotateY(170deg) ;  }
+   50% { transform: perspective(400px) translate3d(0px,0px,150px) rotateX(0deg) rotateY(190deg) scale3d(1.01,1.01,1.01) ;  }
+   80% { transform: perspective(400px) translate3d(0px,0px,0px) rotateX(0deg) rotateY(360deg) scale3d(0.95,0.95,0.95) ;  }
+   100% { transform: perspective(400px) translate3d(0px,0px,0px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
 }
 h1, .h1
 {
